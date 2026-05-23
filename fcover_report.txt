@@ -1,0 +1,169 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_pkg
+=== Design Unit: work.tb_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      2        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         13        13         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                           Memory              Time  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /tb_pkg/scoreboard/cnn_conv2d_covergrp          100.00%        100          -    Covered                           9.1KB              3.0KB              3.7KB          884915 ns 
+    covered/total bins:                                     9          9          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    missing/total bins:                                     0          9          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    % Hit:                                            100.00%        100          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint reset                                  100.00%        100          -    Covered                            288B               176B               544B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin reset                                           1          1          -    Covered                              na                 na                 na                 na 
+        bin run                                             1          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint output_valid                           100.00%        100          -    Covered                            288B               160B               528B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin valid                                       69628          1          -    Covered                              na                 na                 na                 na 
+        bin invalid                                         2          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint complete                               100.00%        100          -    Covered                            288B               160B               528B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin complete_asserted                             103          1          -    Covered                              na                 na                 na                 na 
+        bin complete_deasserted                         69527          1          -    Covered                              na                 na                 na                 na 
+    Cross output_cross                                100.00%        100          -    Covered                           6.5KB              1.6KB              2.4KB          884915 ns 
+        covered/total bins:                                 3          3          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          3          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin valid_finished                            103          1          -    Covered                              na                 na                 na                 na 
+            bin valid_output                            69525          1          -    Covered                              na                 na                 na                 na 
+            bin invalid_output                              2          1          -    Covered                              na                 na                 na                 na 
+        Illegal and Ignore Bins:
+            ignore_bin no_state                             0                     -    ZERO                                 na                 na                 na                 na 
+ TYPE /tb_pkg/scoreboard/cvr_output_data_covergrp     100.00%        100          -    Covered                           1.6KB              1.1KB              1.6KB               0 ns 
+    covered/total bins:                                     4          4          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    missing/total bins:                                     0          4          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    % Hit:                                            100.00%        100          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint output_data                            100.00%        100          -    Covered                            848B               824B              1.2KB          884915 ns 
+        covered/total bins:                                 4          4          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          4          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin zero                                      1738790          1          -    Covered                              na                 na                 na                 na 
+        bin positive_small                             474001          1          -    Covered                              na                 na                 na                 na 
+        bin positive_medium                             14790          1          -    Covered                              na                 na                 na                 na 
+        bin positive_max                                   28          1          -    Covered                              na                 na                 na                 na 
+
+COVERGROUP COVERAGE:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                           Memory              Time  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /tb_pkg/scoreboard/cnn_conv2d_covergrp          100.00%        100          -    Covered                           9.1KB              3.0KB              3.7KB          884915 ns 
+    covered/total bins:                                     9          9          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    missing/total bins:                                     0          9          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    % Hit:                                            100.00%        100          -                                   9.1KB              3.0KB              3.7KB          884915 ns 
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint reset                                  100.00%        100          -    Covered                            288B               176B               544B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin reset                                           1          1          -    Covered                              na                 na                 na                 na 
+        bin run                                             1          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint output_valid                           100.00%        100          -    Covered                            288B               160B               528B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin valid                                       69628          1          -    Covered                              na                 na                 na                 na 
+        bin invalid                                         2          1          -    Covered                              na                 na                 na                 na 
+    Coverpoint complete                               100.00%        100          -    Covered                            288B               160B               528B          884915 ns 
+        covered/total bins:                                 2          2          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          2          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin complete_asserted                             103          1          -    Covered                              na                 na                 na                 na 
+        bin complete_deasserted                         69527          1          -    Covered                              na                 na                 na                 na 
+    Cross output_cross                                100.00%        100          -    Covered                           6.5KB              1.6KB              2.4KB          884915 ns 
+        covered/total bins:                                 3          3          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          3          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin valid_finished                            103          1          -    Covered                              na                 na                 na                 na 
+            bin valid_output                            69525          1          -    Covered                              na                 na                 na                 na 
+            bin invalid_output                              2          1          -    Covered                              na                 na                 na                 na 
+        Illegal and Ignore Bins:
+            ignore_bin no_state                             0                     -    ZERO                                 na                 na                 na                 na 
+ TYPE /tb_pkg/scoreboard/cvr_output_data_covergrp     100.00%        100          -    Covered                           1.6KB              1.1KB              1.6KB               0 ns 
+    covered/total bins:                                     4          4          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    missing/total bins:                                     0          4          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    % Hit:                                            100.00%        100          -                                   1.6KB              1.1KB              1.6KB               0 ns 
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint output_data                            100.00%        100          -    Covered                            848B               824B              1.2KB          884915 ns 
+        covered/total bins:                                 4          4          -                                      na                 na                 na                 na 
+        missing/total bins:                                 0          4          -                                      na                 na                 na                 na 
+        % Hit:                                        100.00%        100          -                                      na                 na                 na                 na 
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin zero                                      1738790          1          -    Covered                              na                 na                 na                 na 
+        bin positive_small                             474001          1          -    Covered                              na                 na                 na                 na 
+        bin positive_medium                             14790          1          -    Covered                              na                 na                 na                 na 
+        bin positive_max                                   28          1          -    Covered                              na                 na                 na                 na 
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 2
+Total Coverage By Instance (filtered view): 100.00%
+
+
+COVERGROUP MEMORY USAGE: Total 47.4KB, Peak 48.2KB at time 884915 ns for total 5 coverpoints/crosses.
+ASSERT/COVER MEMORY USAGE: Total 0B Peak 0B at time 0 ns for total 0 threads.
+CONSTRAINT SOLVER MEMORY USAGE: Total 526.2KB,Peak 924.1KB at time 0 ns for total 119 randomize() calls.
+CLASS OBJECTS MEMORY USAGE: Total Memory 53.3MB and Peak Memory 53.3MB used at time 884915 ns for total 280741 class objects.
+DYNAMIC OBJECTS MEMORY USAGE: Total Memory 22.5MB and Peak Memory 22.5MB used at time 884915 ns for total 280728 dynamic objects.
