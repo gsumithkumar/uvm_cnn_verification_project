@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a SystemVerilog/UVM-style verification project developed for verifying a CNN 2D convolution layer implementation.
+This repository contains a SystemVerilog based UVM testbench developed for verifying a CNN 2D convolution layer implementation.
 
 
 The repository includes:
