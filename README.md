@@ -74,7 +74,7 @@ The repository demonstrates:
 * modular verification structure
 * stimulus generation in both directed and constrained random manner
 * scoreboard-based checking
-* reference-model-assisted verification
+
 
 ---
 
